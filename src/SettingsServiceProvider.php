@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace zahidhassanshaikot\Settings;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use zahidhassanshaikot\Settings\Commands\SettingsCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class SettingsServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('settings')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_settings_table')
+            ->hasCommand(SettingsCommand::class);
     }
 }
