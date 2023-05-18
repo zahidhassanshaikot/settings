@@ -47,6 +47,9 @@ This is the contents of the published config file:
 
 ```php
 return [
+    'cache' => [
+        'enabled' => true,
+    ],
 ];
 ```
 
@@ -70,6 +73,7 @@ use zahidhassanshaikot\Settings\Facades\Settings;
 
 Settings::all();
 Settings::updateOrCreate('site_name', 'laravel-settings');
+Settings::updateOrCreateMultiple(['site_name' => 'laravel-settings', 'timezone' => 'UTC']);
 Settings::get('site_name');
 Settings::delete('site_name');
 
