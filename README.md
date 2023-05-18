@@ -1,11 +1,14 @@
-# This is my package for laravel settings
+# This package is build for laravel basic settings management. You can add your custom settings using this package.
+
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/zahidhassanshaikot/settings.svg?style=flat-square)](https://packagist.org/packages/zahidhassanshaikot/settings)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/zahidhassanshaikot/settings/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/zahidhassanshaikot/settings/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/zahidhassanshaikot/settings/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/zahidhassanshaikot/settings/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/zahidhassanshaikot/settings.svg?style=flat-square)](https://packagist.org/packages/zahidhassanshaikot/settings)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+This package allows you to store settings in a database. The settings are cached to prevent queries to the database. If you update a setting it will be stored in the database and the cache will be flushed.
+This package is for managing most basic settings in your laravel application like site title, site logo etc. You can add your custom settings using this package.
+
 
 [//]: # ()
 [//]: # (## Support us)
@@ -47,23 +50,30 @@ return [
 ];
 ```
 
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="settings-views"
-```
+[//]: # (Optionally, you can publish the views using)
 
 [//]: # ()
-[//]: # (## Usage)
+[//]: # (```bash)
 
-[//]: # ()
-[//]: # (```php)
-
-[//]: # ($settings = new zahidhassanshaikot\Settings&#40;&#41;;)
-
-[//]: # (echo $settings->echoPhrase&#40;'Hello, zahidhassanshaikot!'&#41;;)
+[//]: # (php artisan vendor:publish --tag="settings-views")
 
 [//]: # (```)
+
+
+## Usage
+
+### Facade
+You can use the facade for shorter code. Add the following to your facades:
+
+```php
+use zahidhassanshaikot\Settings\Facades\Settings;
+
+Settings::all();
+Settings::updateOrCreate('site_name', 'laravel-settings');
+Settings::get('site_name');
+Settings::delete('site_name');
+
+```
 
 [//]: # ()
 [//]: # (## Testing)
