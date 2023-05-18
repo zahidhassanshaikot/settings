@@ -1,4 +1,4 @@
-# This is my package settings
+# This is my package for laravel settings
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/zahidhassanshaikot/settings.svg?style=flat-square)](https://packagist.org/packages/zahidhassanshaikot/settings)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/zahidhassanshaikot/settings/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/zahidhassanshaikot/settings/actions?query=workflow%3Arun-tests+branch%3Amain)
@@ -7,13 +7,17 @@
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
-## Support us
+[//]: # ()
+[//]: # (## Support us)
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/settings.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/settings)
+[//]: # ()
+[//]: # ([<img src="https://github-ads.s3.eu-central-1.amazonaws.com/settings.jpg?t=1" width="419px" />]&#40;https://spatie.be/github-ad-click/settings&#41;)
 
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
+[//]: # ()
+[//]: # (We invest a lot of resources into creating [best in class open source packages]&#40;https://spatie.be/open-source&#41;. You can support us by [buying one of our paid products]&#40;https://spatie.be/open-source/support-us&#41;.)
 
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
+[//]: # ()
+[//]: # (We highly appreciate you sending us a postcard from your hometown, mentioning which of our package&#40;s&#41; you are using. You'll find our address on [our contact page]&#40;https://spatie.be/about-us&#41;. We publish all received postcards on [our virtual postcard wall]&#40;https://spatie.be/open-source/postcards&#41;.)
 
 ## Installation
 
@@ -49,18 +53,27 @@ Optionally, you can publish the views using
 php artisan vendor:publish --tag="settings-views"
 ```
 
-## Usage
+[//]: # ()
+[//]: # (## Usage)
 
-```php
-$settings = new zahidhassanshaikot\Settings();
-echo $settings->echoPhrase('Hello, zahidhassanshaikot!');
-```
+[//]: # ()
+[//]: # (```php)
 
-## Testing
+[//]: # ($settings = new zahidhassanshaikot\Settings&#40;&#41;;)
 
-```bash
-composer test
-```
+[//]: # (echo $settings->echoPhrase&#40;'Hello, zahidhassanshaikot!'&#41;;)
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (## Testing)
+
+[//]: # ()
+[//]: # (```bash)
+
+[//]: # (composer test)
+
+[//]: # (```)
 
 ## Changelog
 
