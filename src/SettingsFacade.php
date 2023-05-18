@@ -11,14 +11,15 @@ class SettingsFacade
     {
         $is_cache = config('settings.cache.enabled') ?? true;
 
-        if($is_cache) {
+        if ($is_cache) {
             return Cache::rememberForever('settings', function () {
                 return Settings::get();
             });
-        }else{
+        } else {
             return Settings::get();
         }
     }
+
     public function updateOrCreate($key = '', $value = '')
     {
         Settings::updateOrCreate([
@@ -49,11 +50,12 @@ class SettingsFacade
 
         return true;
     }
+
     public static function removeSettingCache()
     {
         $is_cache = config('settings.cache.enabled') ?? true;
 
-        if($is_cache) {
+        if ($is_cache) {
             if (Cache::has('settings')) {
                 Cache::forget('settings');
             } else {

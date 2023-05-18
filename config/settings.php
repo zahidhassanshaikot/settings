@@ -3,6 +3,6 @@
 // config for zahidhassanshaikot/Settings
 return [
     'cache' => [
-        'enabled'   => true,
+        'enabled' => true,
     ],
 ];
