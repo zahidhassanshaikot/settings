@@ -19,7 +19,7 @@ class SettingsServiceProvider extends PackageServiceProvider
             ->name('settings')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_settings_table')
+            ->hasMigration('2023_05_17_170816_create_settings_table.php')
             ->hasCommand(SettingsCommand::class);
     }
 }
