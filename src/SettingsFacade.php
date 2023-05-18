@@ -28,6 +28,7 @@ class SettingsFacade
 
             if (empty($key) | empty($value)) {
                 DB::rollBack();
+
                 return false;
             }
 
@@ -45,6 +46,7 @@ class SettingsFacade
 
         } catch (\Exception $e) {
             DB::rollBack();
+
             return false;
         }
     }
@@ -54,7 +56,7 @@ class SettingsFacade
         try {
             DB::beginTransaction();
 
-            if (!is_array($settings) | empty($settings) | !count($settings)) {
+            if (! is_array($settings) | empty($settings) | ! count($settings)) {
                 return false;
             }
 
@@ -73,6 +75,7 @@ class SettingsFacade
             return true;
         } catch (\Exception $e) {
             DB::rollBack();
+
             return false;
         }
     }
