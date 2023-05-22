@@ -1,4 +1,4 @@
-# This package is build for laravel basic settings management. You can add your custom settings using this package.
+# This [package](https://packagist.org/packages/zahidhassanshaikot/settings) is build for laravel basic settings management. You can add your custom settings using this [package](https://packagist.org/packages/zahidhassanshaikot/settings).
 
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/zahidhassanshaikot/settings.svg?style=flat-square)](https://packagist.org/packages/zahidhassanshaikot/settings)
@@ -21,8 +21,8 @@
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/zahidhassanshaikot/settings?style=flat-square)]()
 [![GitHub repo file count](https://img.shields.io/github/directory-file-count/zahidhassanshaikot/settings?style=flat-square)]()
 
-This package allows you to store settings in a database. The settings are cached to prevent queries to the database. If you update a setting it will be stored in the database and the cache will be flushed.
-This package is for managing most basic settings in your laravel application like site title, site logo etc. You can add your custom settings using this package.
+This [package](https://packagist.org/packages/zahidhassanshaikot/settings) allows you to store settings in a database. The settings are cached to prevent queries to the database. If you update a setting it will be stored in the database and the cache will be flushed.
+This [package](https://packagist.org/packages/zahidhassanshaikot/settings) is for managing most basic settings in your laravel application like site title, site logo etc. You can add your custom settings using this package.
 
 
 [//]: # ()
