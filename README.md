@@ -25,17 +25,14 @@ This [package](https://packagist.org/packages/zahidhassanshaikot/settings) allow
 This [package](https://packagist.org/packages/zahidhassanshaikot/settings) is for managing most basic settings in your laravel application like site title, site logo etc. You can add your custom settings using this package.
 
 
-[//]: # ()
-[//]: # (## Support us)
 
-[//]: # ()
-[//]: # ([<img src="https://github-ads.s3.eu-central-1.amazonaws.com/settings.jpg?t=1" width="419px" />]&#40;https://spatie.be/github-ad-click/settings&#41;)
+## Support us
 
-[//]: # ()
-[//]: # (We invest a lot of resources into creating [best in class open source packages]&#40;https://spatie.be/open-source&#41;. You can support us by [buying one of our paid products]&#40;https://spatie.be/open-source/support-us&#41;.)
+If you find this project helpful or appreciate my work, please consider buying me a coffee! ☕️
 
-[//]: # ()
-[//]: # (We highly appreciate you sending us a postcard from your hometown, mentioning which of our package&#40;s&#41; you are using. You'll find our address on [our contact page]&#40;https://spatie.be/about-us&#41;. We publish all received postcards on [our virtual postcard wall]&#40;https://spatie.be/open-source/postcards&#41;.)
+<a href="https://bmc.link/zahidhassanshai" target="_blank">
+  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-orange?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee">
+</a>
 
 ## Installation
 
@@ -124,12 +121,4 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Support
-
-If you find this project helpful or appreciate my work, please consider buying me a coffee! ☕️
-
-<a href="https://bmc.link/zahidhassanshai" target="_blank">
-  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-orange?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee">
-</a>
 
