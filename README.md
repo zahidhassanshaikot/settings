@@ -124,3 +124,12 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## Support
+
+If you find this project helpful or appreciate my work, please consider buying me a coffee! ☕️
+
+<a href="https://bmc.link/zahidhassanshai" target="_blank">
+  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-orange?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee">
+</a>
+
